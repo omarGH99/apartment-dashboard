@@ -1,0 +1,9 @@
+{
+  "short_name": "Apartments",
+  "name": "Apartment Dashboard",
+  "icons": [{ "src": "favicon.svg", "type": "image/svg+xml", "sizes": "any" }],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0f2d52",
+  "background_color": "#f8fafc"
+}

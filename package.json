@@ -1,0 +1,69 @@
+{
+  "name": "apartment-dashboard",
+  "version": "1.0.0",
+  "description": "A property management dashboard demo: units, tenants, rent collection, maintenance and reports.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "author": "omarGH99 (https://github.com/omarGH99)",
+  "homepage": "https://omargh99.github.io/apartment-dashboard/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omarGH99/apartment-dashboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/omarGH99/apartment-dashboard/issues"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "vite",
+    "dashboard",
+    "property-management",
+    "recharts",
+    "admin-dashboard",
+    "real-estate"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "screenshots": "node scripts/screenshots.mjs"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.23",
+    "lucide-react": "^1.49.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-router-dom": "^7.18.4",
+    "recharts": "^3.10.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.7",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "eslint": "^10.11.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.13.0",
+    "jsdom": "^30.1.1",
+    "playwright-core": "^1.63.0",
+    "prettier": "^3.9.9",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.71.0",
+    "vite": "^8.3.1",
+    "vitest": "^5.0.3"
+  }
+}
